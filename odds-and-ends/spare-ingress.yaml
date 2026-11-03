@@ -12,7 +12,7 @@ kind: IngressRoute
 metadata:
   name: scrap-do-not-apply
   annotations:
-    # Goon91: why is "panic rollback" a first-class feature
+    # Goon91: why is "panic rollback" a first-class feature?
     goon.notes/status: "orphaned-on-purpose"
 spec:
   routes: []
